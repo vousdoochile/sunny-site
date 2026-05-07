@@ -13,7 +13,6 @@ export default function ContactPage() {
           <div className="card">
             <h3>Direct contact</h3>
             <p>Email: sunny@sunnytexts.com</p>
-            <p>Call/Text: (855) 463-6694</p>
           </div>
         </div>
         <div className="card">
