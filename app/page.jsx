@@ -44,19 +44,17 @@ export default function HomePage() {
               priority
             />
 
-            <div className="phone-card">
-              <div className="message sunny">
-                Good morning, William. What is one thing you are looking forward to today?
-              </div>
-              <div className="message">I might walk outside later.</div>
-              <div className="message family">
-                Sunny Texts: we have not heard from William in a while. Would you mind checking in?
-              </div>
-              <div className="status">● Optional caregiver alert sent</div>
+            <div className="phone-video-card">
+             <video
+               className="phone-video"
+               autoPlay
+               muted
+               loop
+               playsInline
+             >
+               <source src="/textflow4x.mp4" type="video/mp4" />
+             </video>
             </div>
-          </div>
-        </div>
-      </section>
 
       <section className="section section-soft">
         <div className="container grid-2">
