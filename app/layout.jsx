@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'Sunny Texts | Daily check-ins for older adults',
-  description: 'Sunny Texts sends cheerful daily texts for older adults and optional caregiver alerts for families.'
+  description: 'Sunny Texts sends cheerful daily texts for older adults and optional caregiver alerts for families.',
   icons: {
     icon: '/favicon.png',
   },
