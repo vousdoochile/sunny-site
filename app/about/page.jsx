@@ -48,8 +48,7 @@ export default function AboutPage() {
           <p>
             Dean Reese holds the Artificial Intelligence Governance Professional certification and has
             hands-on experience building AI systems, workflow automation, SMS infrastructure, and
-            real-time caregiver support tools using technologies including OpenAI, Twilio, Supabase,
-            Stripe, and Vercel.
+            real-time caregiver support tools.
           </p>
 
           <div className="card">
