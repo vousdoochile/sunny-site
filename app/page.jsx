@@ -44,17 +44,20 @@ export default function HomePage() {
               priority
             />
 
-            <div className="phone-video-card">
-             <video
-               className="phone-video"
-               autoPlay
-               muted
-               loop
-               playsInline
-             >
-               <source src="/textflow4x.mp4" type="video/mp4" />
-             </video>
-            </div>
+<div className="phone-video-card">
+  <video
+    className="phone-video"
+    autoPlay
+    muted
+    loop
+    playsInline
+  >
+    <source src="/textflow4x.mp4" type="video/mp4" />
+  </video>
+</div>
+
+</div>
+</div>
 
       <section className="section section-soft">
         <div className="container grid-2">
