@@ -47,7 +47,7 @@ export default function SunnyVisionPage() {
       <section className="section section-soft">
         <div className="container">
 
-          <div className="phone-video-card" style={{ maxWidth: '900px', margin: '0 auto 48px auto' }}>
+          <div className="phone-video-card" style={{ maxWidth: '480px', margin: '0 auto 48px auto' }}>
             <video
               className="phone-video"
               autoPlay

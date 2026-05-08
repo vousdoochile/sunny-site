@@ -14,6 +14,7 @@ export default function Header() {
           <Link href="/sunny-vision">Sunny Vision</Link>
           <Link href="/families">For Families</Link>
           <Link href="/investors">Investors</Link>
+          <Link href="/about">About Sunny</Link>
           <Link href="/contact">Contact</Link>
         </nav>
         <Link className="btn btn-primary" href="/sunny-texts#start">Start Sunny Texts</Link>
