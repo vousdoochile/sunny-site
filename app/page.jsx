@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import Link from 'next/link';
 import SmsDisclosure from '../components/SmsDisclosure';
@@ -44,20 +43,14 @@ export default function HomePage() {
               priority
             />
 
-<div className="phone-video-card">
-  <video
-    className="phone-video"
-    autoPlay
-    muted
-    loop
-    playsInline
-  >
-    <source src="/textflow4x.mp4" type="video/mp4" />
-  </video>
-</div>
-
-</div>
-</div>
+            <div className="phone-video-card">
+              <video className="phone-video" autoPlay muted loop playsInline>
+                <source src="/textflow4x.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="section section-soft">
         <div className="container grid-2">
@@ -77,13 +70,7 @@ export default function HomePage() {
           <div className="trust-image">
             <div className="family-bubbles">
               <div className="bubble">
-                <Image
-                  src="/gma.png"
-                  alt="Older adult"
-                  width={64}
-                  height={64}
-                  className="avatar-image"
-                />
+                <Image src="/gma.png" alt="Older adult" width={64} height={64} className="avatar-image" />
                 <div className="bubble-copy">
                   <strong>Loved One</strong>
                   <p>Receives cheerful daily check-ins and friendly conversation.</p>
@@ -91,13 +78,7 @@ export default function HomePage() {
               </div>
 
               <div className="bubble">
-                <Image
-                  src="/sun.png"
-                  alt="Sunny Texts"
-                  width={64}
-                  height={64}
-                  className="avatar-image"
-                />
+                <Image src="/sun.png" alt="Sunny Texts" width={64} height={64} className="avatar-image" />
                 <div className="bubble-copy">
                   <strong>Sunny</strong>
                   <p>Remembers stories, routines, and meaningful moments over time.</p>
@@ -105,13 +86,7 @@ export default function HomePage() {
               </div>
 
               <div className="bubble">
-                <Image
-                  src="/daughter.png"
-                  alt="Caregiver"
-                  width={64}
-                  height={64}
-                  className="avatar-image"
-                />
+                <Image src="/daughter.png" alt="Caregiver" width={64} height={64} className="avatar-image" />
                 <div className="bubble-copy">
                   <strong>Caregiver</strong>
                   <p>Can receive optional alerts when extra visibility may help.</p>
@@ -159,13 +134,7 @@ export default function HomePage() {
       <section className="section section-soft">
         <div className="container product-split">
           <div className="card">
-            <Image
-              className="product-logo"
-              src="/sunny-texts-logo.png"
-              alt="Sunny Texts logo"
-              width={220}
-              height={220}
-            />
+            <Image className="product-logo" src="/sunny-texts-logo.png" alt="Sunny Texts logo" width={220} height={220} />
             <h2>Sunny Texts</h2>
             <p>Live now. Friendly daily SMS check-ins for older adults with optional caregiver alerts.</p>
             <p>
@@ -177,13 +146,7 @@ export default function HomePage() {
           </div>
 
           <div className="card">
-            <Image
-              className="product-logo"
-              src="/sunny-vision-logo.png"
-              alt="Sunny Vision logo"
-              width={220}
-              height={220}
-            />
+            <Image className="product-logo" src="/sunny-vision-logo.png" alt="Sunny Vision logo" width={220} height={220} />
             <h2>Sunny Vision</h2>
             <p>Upcoming real-time support layer for voice guidance, caregiver visibility, and moments of confusion.</p>
             <p>
