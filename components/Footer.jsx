@@ -13,6 +13,7 @@ export default function Footer() {
           <h3>Products</h3>
           <div className="footer-links">
             <Link href="/sunny-texts">Sunny Texts</Link>
+            <Link href="/sunny-home">Sunny Home</Link>
             <Link href="/sunny-vision">Sunny Vision</Link>
             <Link href="/families">For Families</Link>
             <Link href="/investors">Investors</Link>
