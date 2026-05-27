@@ -12,6 +12,7 @@ export default function Header() {
         <nav className="navlinks" aria-label="Main navigation">
           <Link href="/sunny-texts">Sunny Texts</Link>
           <Link href="/sunny-vision">Sunny Vision</Link>
+          <Link href="/sunny-home">Sunny Home</Link>
           <Link href="/families">For Families</Link>
           <Link href="/investors">Investors</Link>
           <Link href="/about">About Sunny</Link>
