@@ -52,59 +52,67 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-soft">
-        <div className="container grid-2">
-          <div>
-            <h2>Connection for older adults. Peace of mind for families.</h2>
-            <p>
-              Sunny Texts helps older adults stay connected through warm daily text conversations while giving loved ones more visibility when communication patterns change.
-            </p>
-            <p>
-              There are no apps, passwords, or complicated technology. Everything works through simple text messages designed to feel familiar and easy to use.
-            </p>
-            <p>
-              Optional caregiver notifications provide additional reassurance when a loved one misses a check-in or may need support.
-            </p>
-          </div>
+<section className="section section-soft">
+  <div className="container">
+    <h2>The Sunny platform</h2>
 
-          <div className="trust-image">
-            <div className="family-bubbles">
-              <div className="bubble">
-                <Image src="/gma.png" alt="Older adult" width={64} height={64} className="avatar-image" />
-                <div className="bubble-copy">
-                  <strong>Loved One</strong>
-                  <p>Receives cheerful daily check-ins and friendly conversation.</p>
-                </div>
-              </div>
+    <div className="grid-3">
+      <div className="card">
+        <Image
+          className="product-logo"
+          src="/sunny-texts-logo.png"
+          alt="Sunny Texts logo"
+          width={220}
+          height={220}
+        />
+        <h2>Sunny Texts</h2>
+        <p>Live now. Friendly daily SMS check-ins for older adults with optional caregiver alerts.</p>
+        <p>
+          <strong>Free 10-day trial, then $6.99/month. Cancel anytime.</strong>
+        </p>
+        <Link className="btn btn-primary" href="/sunny-texts#start">
+          Start Sunny Texts
+        </Link>
+      </div>
 
-              <div className="bubble">
-                <Image src="/sun.png" alt="Sunny Texts" width={64} height={64} className="avatar-image" />
-                <div className="bubble-copy">
-                  <strong>Sunny</strong>
-                  <p>Remembers stories, routines, and meaningful moments over time.</p>
-                </div>
-              </div>
+      <div className="card">
+        <Image
+          className="product-logo"
+          src="/sunny-vision-logo.png"
+          alt="Sunny Vision logo"
+          width={220}
+          height={220}
+        />
+        <h2>Sunny Vision</h2>
+        <p>Camera-aware and context-aware support for moments of confusion, voice guidance, and caregiver visibility.</p>
+        <p>
+          <strong>Currently in waitlist and pilot development.</strong>
+        </p>
+        <Link className="btn btn-blue" href="/sunny-vision">
+          Explore Sunny Vision
+        </Link>
+      </div>
 
-              <div className="bubble">
-                <Image src="/daughter.png" alt="Caregiver" width={64} height={64} className="avatar-image" />
-                <div className="bubble-copy">
-                  <strong>Caregiver</strong>
-                  <p>Can receive optional alerts when extra visibility may help.</p>
-                </div>
-              </div>
-
-              <div className="bubble">
-                <div className="avatar">✓</div>
-                <div className="bubble-copy">
-                  <strong>Family</strong>
-                  <p>More reassurance without adding another complicated system.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <div className="card">
+        <Image
+          className="product-logo"
+          src="/sunny-home-logo.png"
+          alt="Sunny Home logo"
+          width={220}
+          height={220}
+        />
+        <h2>Sunny Home</h2>
+        <p>Ambient in-home support device designed for voice guidance, room awareness, caregiver visibility, and reassurance.</p>
+        <p>
+          <strong>Currently in MVP and pilot development.</strong>
+        </p>
+        <Link className="btn btn-blue" href="/sunny-home">
+          Explore Sunny Home
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
       <section className="section">
         <div className="container">
           <h2>How it works</h2>
