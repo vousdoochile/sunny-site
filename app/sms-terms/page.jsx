@@ -17,7 +17,9 @@ export default function SmsTermsPage() {
 
         <p>
           Message frequency varies. Message and data rates may apply. Reply STOP
-          to cancel or HELP for help.
+          to opt out of texts or HELP for help. Use{' '}
+          <a href="https://billing.stripe.com/p/login/6oU28sd6rfZf0Jg7Js0ZW00">Manage / Cancel Billing</a>{' '}
+          to cancel your trial or subscription.
         </p>
 
         <p>Consent is not a condition of purchase.</p>
