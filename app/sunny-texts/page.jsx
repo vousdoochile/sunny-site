@@ -31,6 +31,7 @@ export default function SunnyTextsPage() {
               Text HELLO to (855) 463-6694 to start your free 10-day trial.
             </p>
             <SmsDisclosure />
+            <a className="btn btn-secondary" href="https://billing.stripe.com/p/login/6oU28sd6rfZf0Jg7Js0ZW00">Manage / Cancel Billing</a>
           </div>
 
           <div className="hero-card">
