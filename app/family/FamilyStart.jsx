@@ -1,18 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { recipientNumber } from "./phone.mjs";
 import styles from "./family.module.css";
-
-function recipientNumber(value) {
-  const trimmed = value.trim();
-  const digits = trimmed.replace(/\D/g, "");
-  if (!/^\+?[\d\s().-]+$/.test(trimmed)) return null;
-  if (trimmed.startsWith("+") && /^\+[1-9]\d{7,14}$/.test(`+${digits}`))
-    return `+${digits}`;
-  if (digits.length === 10) return `+1${digits}`;
-  if (digits.length === 11 && digits.startsWith("1")) return `+${digits}`;
-  return null;
-}
 
 export default function FamilyStart() {
   const [phone, setPhone] = useState("");
