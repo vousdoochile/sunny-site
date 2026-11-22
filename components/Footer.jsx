@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   const pathname = usePathname();
-  if (pathname === '/family') return null;
+  if (pathname === '/family' || pathname === '/join') return null;
   return (
     <footer className="footer">
       <div className="container footer-grid">

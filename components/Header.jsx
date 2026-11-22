@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Header() {
   const pathname = usePathname();
-  if (pathname === '/family') return null;
+  if (pathname === '/family' || pathname === '/join') return null;
   return (
     <header className="header">
       <div className="container nav">
