@@ -1,7 +1,12 @@
+'use client';
+
+import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Header() {
+  const pathname = usePathname();
+  if (pathname === '/family') return null;
   return (
     <header className="header">
       <div className="container nav">

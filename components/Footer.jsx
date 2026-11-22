@@ -1,6 +1,11 @@
+'use client';
+
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
 export default function Footer() {
+  const pathname = usePathname();
+  if (pathname === '/family') return null;
   return (
     <footer className="footer">
       <div className="container footer-grid">
