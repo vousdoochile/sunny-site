@@ -40,7 +40,7 @@ const questions = [
   ],
   [
     "Can I see their conversations or a caregiver dashboard?",
-    "This plan sponsors SMS for your loved one. It does not include a family dashboard, conversation access, caregiver metrics, or monitoring alerts.",
+    "There is no family dashboard, conversation access, or caregiver metrics. Your loved one can choose a trusted contact for missed-reply check-in nudges; that contact must separately opt in. Nudges never include conversation excerpts and are not emergency monitoring.",
   ],
   [
     "What if they want to stop?",
@@ -95,6 +95,13 @@ export default function FamilyPage() {
             <p className={styles.intro}>
               Sponsor Sunny’s daily AI text conversations for a parent or loved
               one. They choose to join. You take care of the subscription.
+            </p>
+            <p className={styles.intro}>
+              <strong>A heads-up when you haven’t heard from them.</strong>{" "}
+              If your loved one hasn’t replied to a Sunny check-in within the alert
+              window, Sunny can text the trusted contact they chose, once that person
+              opts in, and ask them to check in. It’s a nudge to reach out, not
+              emergency monitoring. In an emergency, call 911.
             </p>
             <a className={styles.primaryButton} href="#start-family">
               Start their invitation <span aria-hidden="true">↗</span>
